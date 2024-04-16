@@ -8,3 +8,10 @@ dotnet_naming_symbols.private_fields.applicable_accessibilities = private
 
 dotnet_naming_style.prefix_underscore.capitalization = camel_case
 dotnet_naming_style.prefix_underscore.required_prefix = _
+
+# CS8604: Possible null reference argument.
+dotnet_diagnostic.CS8604.severity = suggestion
+
+
+# CS8604: Possible null reference argument.
+dotnet_diagnostic.CS8604.severity = none
