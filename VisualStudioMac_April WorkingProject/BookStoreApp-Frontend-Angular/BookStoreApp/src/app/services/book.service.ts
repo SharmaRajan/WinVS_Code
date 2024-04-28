@@ -8,7 +8,9 @@ import { Observable } from 'rxjs/internal/Observable';
 })
 export class BookService {
 
-  private basePath = 'http://localhost:5082/api/books';
+  //private basePath = 'http://localhost:5082/api/books';
+
+  private basePath = 'https://localhost:7169/api/books';
 
   constructor(private http: HttpClient) { }
 
